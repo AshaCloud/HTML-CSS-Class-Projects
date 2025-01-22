@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Your coffee order</title>
+  </head>
+  <body>
+   <form action="https://www.w3schools.com/action_page.php" method="get">
+    <p>
+     <label for="customer name">Customer Name:</label>
+     <input type="text" id="name" name="customer name"
+    </p>
+    <p>
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="customer email"
+    </p>
+    <p>
+    <label for="coffee type">Choose desired coffee type:</label>
+    <select name="coffee type" id="coffee type">
+     <option value="latte">Latte</option>
+     <option value="mocha">Mocha</option>
+     <option value="americano">Americano</option>
+     <option value="cappuccino">Cappuccino</option>
+     <option value="espresso">Espresso</option>
+    </select>
+   </p>
+   </form>
+ <form>
+  <fieldset>
+   <legend>Choose coffee size</legend>
+   <div>
+    <label for="small">Small:</label>
+    <input type="radio" id="small" name="size" value="small"
+  
+    <label for="medium">Medium:</label>
+    <input type="radio" id="medium" name="size" value="medium"
+   
+    <label for="large">Large:</label>
+    <input type="radio" id="large" name="size" value="large"
+  </div>
+ </fieldset>
+
+</fieldset>
+<legend>Please check additional options, if desired</legend>
+<ul>
+<li>
+ <label for="whipped cream">Whipped Cream</label>
+ <input type="checkbox" id="whipped cream" name="extras" value="whipped cream"
+</li>
+<li>
+ <label for="double espresso">Double espresso</label>
+ <input type="checkbox" id="double espresso" name="extras" value="double espresso"
+</li>
+<li>
+ <label for="almond milk">Almond Milk</label>
+ <input type="checkbox" id="Almond Milk" name="extras" value="whipped cream"
+</li>   
+ </form>
+<p>
+    <label for="comment">Comment:</label>
+    <textarea id="comment" name="message"></textarea>
+<button type="submit">Submit your order!</button>
+</p>
+  </body>
+</html>
